@@ -2,11 +2,16 @@
   {
     "op": "replace",
     "path": "/data/VAULTHOST",
-    "value": "https://vault-spi-vault.apps.appstudio-stage.x99m.p1.openshiftapps.com"
+    "value": "https://vault-spi-vault.apps.cluster-nm2l4.nm2l4.sandbox1377.opentlc.com"
   },
   {
     "op": "replace",
     "path": "/data/BASEURL",
-    "value": "https://spi-oauth-spi-system.apps.appstudio-stage.x99m.p1.openshiftapps.com"
+    "value": "https://spi-oauth-spi-system.apps.cluster-nm2l4.nm2l4.sandbox1377.opentlc.com"
+  },
+  {
+    "op": "add",
+    "path": "/data/VAULTINSECURETLS",
+    "value": "true"
   }
 ]
